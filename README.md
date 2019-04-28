@@ -31,6 +31,13 @@ Figure 1.2
 
 
 
+Once I have seen samples of my images, I created bar plots to view the number of images in each folder. Figure 2 provides the total training images by type and figure 2.1 shows the total testing images by type.
+
+Figure 2.
+
+
+Figure 2.1
+
 
 
 
