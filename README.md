@@ -38,7 +38,7 @@ Figure 2.1
 ![image](https://user-images.githubusercontent.com/43620431/56870616-cde09780-69c6-11e9-8586-d1eb538bfa7d.png)
 
 ## Model and Architecture
-
+I used three different architectures, AlexNet, Inception, and ResNet, to find an optimal model. AlexNet is one of the first deep architectures
 
 
 
