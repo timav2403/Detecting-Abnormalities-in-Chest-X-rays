@@ -23,6 +23,10 @@ I started by accessing images from the trainset folder to view 10 random images.
 Figure 1.
 ![image](https://user-images.githubusercontent.com/43620431/56870567-4eeb5f00-69c6-11e9-9358-73bfdbd5b0d2.png)
 
+Figure 1.1
+
+
+Figure 1.2
 
 
 
