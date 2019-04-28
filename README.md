@@ -20,6 +20,8 @@ The first transformation I made was converting the PNG pulmonary files to JPEG. 
 ## Exploratory Data Analysis
 I started by accessing images from the trainset folder to view 10 random images. Figure 1 shows normal chest x-rays, figure 1.1 shows pneumonia chest x-rays, and figure 1.2 shows pulmonary x-rays. 
 
+Once I have seen samples of my images, I created bar plots to view the number of images in each folder. Figure 2 provides the total training images by type and figure 2.1 shows the total testing images by type.
+
 Figure 1.
 ![image](https://user-images.githubusercontent.com/43620431/56870567-4eeb5f00-69c6-11e9-9358-73bfdbd5b0d2.png)
 
@@ -28,10 +30,6 @@ Figure 1.1
 
 Figure 1.2
 ![image](https://user-images.githubusercontent.com/43620431/56870591-8f4add00-69c6-11e9-864b-0b0c21f090a6.png)
-
-
-
-Once I have seen samples of my images, I created bar plots to view the number of images in each folder. Figure 2 provides the total training images by type and figure 2.1 shows the total testing images by type.
 
 Figure 2.
 ![image](https://user-images.githubusercontent.com/43620431/56870614-c9b47a00-69c6-11e9-86a1-976a5947f9d4.png)
