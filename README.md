@@ -34,9 +34,14 @@ Figure 1.2
 Once I have seen samples of my images, I created bar plots to view the number of images in each folder. Figure 2 provides the total training images by type and figure 2.1 shows the total testing images by type.
 
 Figure 2.
-
+![image](https://user-images.githubusercontent.com/43620431/56870614-c9b47a00-69c6-11e9-86a1-976a5947f9d4.png)
 
 Figure 2.1
+![image](https://user-images.githubusercontent.com/43620431/56870616-cde09780-69c6-11e9-8586-d1eb538bfa7d.png)
+
+## Model and Architecture
+
+
 
 
 
