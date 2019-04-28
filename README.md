@@ -1,4 +1,4 @@
-# Detecting_Abnormalities_in_Chest_X_rays
+# Detecting Abnormalities in Chest X-rays
 
 ## Objective
 The objective for this project is to create neural network machine learning models using AlexNet, Inception, and ResNet architectures. The hope is to have at least one of these three models produce high accuracy metrics, if not all. In addition, exploring the different architectures will help reveal the best structure for this type of dataset. Creating these models is extremely beneficial in the healthcare industry because they will be able to detect pneumonia or pulmonary disease efficiently to flag at-risk patients. 
