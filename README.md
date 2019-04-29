@@ -702,4 +702,12 @@ The model was trained as with a fit_generator as follows:
 
 ## Discussions
 
+
 ## References
+
+- Fine, M. J., Auble, T. E., Yealy, D. M., Hanusa, B. H., Weissfeld, L. A., Singer, D. E., Coley, C. M., … Kapoor, W. N. (2019). A prediction rule to identify low-risk patients with community acquired pneumonia. The New England Journal of Medicine. 243-250.
+- Centers for Disease Control and Prevention. (2019). COPD death rates in the United States. Retrieved from https://www.cdc.gov/copd/data.html
+- Centers for Disease Control and Prevention. (2019). Pneumonia. Retrieved from https://www.cdc.gov/nchs/fastats/pneumonia.htm
+- Python 3.7.3 documentation. Retrieved from https://docs.python.org/
+- Keras: The Python Deep Learning library. Retrieved from https://keras.io/
+
