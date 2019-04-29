@@ -655,6 +655,10 @@ The model was trained as with a fit_generator as follows:
     * min_delta=0.01
     * cooldown=1
     * min_lr=.00000000001
+
+Visual of performance:
+![image](https://user-images.githubusercontent.com/43620431/56877464-22a20380-6a03-11e9-8991-b0e0319871ff.png)
+
 ### Inception
 The model was trained as with a fit_generator as follows:
 * loss = categorical
@@ -664,6 +668,10 @@ The model was trained as with a fit_generator as follows:
 * steps_per_epoch = 25
 * validation_steps = 50
 * verbose = 1
+
+Visual of performance:
+![image](https://user-images.githubusercontent.com/43620431/56877469-26ce2100-6a03-11e9-8cac-2e2a81eb82d8.png)
+
 ### ResNet
 The model was trained as with a fit_generator as follows:
 * loss = categorical
@@ -681,6 +689,9 @@ The model was trained as with a fit_generator as follows:
     * min_delta=0.01
     * cooldown=1
     * min_lr=.0000000000009
+    
+Visual of performance:
+![image](https://user-images.githubusercontent.com/43620431/56877471-29c91180-6a03-11e9-8ec3-b3c70081acc0.png)
 ## Discussions
 
 ## References
