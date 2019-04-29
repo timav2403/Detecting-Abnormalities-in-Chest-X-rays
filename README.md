@@ -40,17 +40,82 @@ Figure 2.1
 ## Model and Architecture
 I used three different architectures, AlexNet, Inception, and ResNet, to find an optimal model.
 
-#### AlexNet
+#### AlexNet Model
+Figure 3 shows an example of an AlexNet model and figure 3.1 provides the summary of the model derived after creating several different models and tuning them. Initially I tried running the model without any dropouts or batch normalizations and added regulizers within each convolution. However, my final model consisted of no regulizers within the convolutions and inserted batch normalizations with dropouts to help with the overfitting problem I was running into.
+
+Figure 3
 ![image](https://user-images.githubusercontent.com/43620431/56874580-a3570480-69ef-11e9-8207-a5adbc48b679.png)
 
+Figure 3.1
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv2d_1 (Conv2D)            (None, 222, 222, 128)     3584      
+_________________________________________________________________
+conv2d_2 (Conv2D)            (None, 220, 220, 128)     147584    
+_________________________________________________________________
+batch_normalization_1 (Batch (None, 220, 220, 128)     512       
+_________________________________________________________________
+max_pooling2d_1 (MaxPooling2 (None, 110, 110, 128)     0         
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 110, 110, 128)     0         
+_________________________________________________________________
+conv2d_3 (Conv2D)            (None, 108, 108, 128)     147584    
+_________________________________________________________________
+conv2d_4 (Conv2D)            (None, 106, 106, 128)     147584    
+_________________________________________________________________
+batch_normalization_2 (Batch (None, 106, 106, 128)     512       
+_________________________________________________________________
+max_pooling2d_2 (MaxPooling2 (None, 53, 53, 128)       0         
+_________________________________________________________________
+conv2d_5 (Conv2D)            (None, 51, 51, 64)        73792     
+_________________________________________________________________
+conv2d_6 (Conv2D)            (None, 49, 49, 64)        36928     
+_________________________________________________________________
+batch_normalization_3 (Batch (None, 49, 49, 64)        256       
+_________________________________________________________________
+max_pooling2d_3 (MaxPooling2 (None, 24, 24, 64)        0         
+_________________________________________________________________
+dropout_2 (Dropout)          (None, 24, 24, 64)        0         
+_________________________________________________________________
+conv2d_7 (Conv2D)            (None, 22, 22, 64)        36928     
+_________________________________________________________________
+conv2d_8 (Conv2D)            (None, 20, 20, 64)        36928     
+_________________________________________________________________
+batch_normalization_4 (Batch (None, 20, 20, 64)        256       
+_________________________________________________________________
+max_pooling2d_4 (MaxPooling2 (None, 20, 20, 64)        0         
+_________________________________________________________________
+conv2d_9 (Conv2D)            (None, 18, 18, 32)        18464     
+_________________________________________________________________
+conv2d_10 (Conv2D)           (None, 16, 16, 32)        9248      
+_________________________________________________________________
+batch_normalization_5 (Batch (None, 16, 16, 32)        128       
+_________________________________________________________________
+max_pooling2d_5 (MaxPooling2 (None, 16, 16, 32)        0         
+_________________________________________________________________
+conv2d_11 (Conv2D)           (None, 14, 14, 32)        9248      
+_________________________________________________________________
+batch_normalization_6 (Batch (None, 14, 14, 32)        128       
+_________________________________________________________________
+flatten_1 (Flatten)          (None, 6272)              0         
+_________________________________________________________________
+dense_1 (Dense)              (None, 128)               802944    
+_________________________________________________________________
+dropout_3 (Dropout)          (None, 128)               0         
+_________________________________________________________________
+dense_2 (Dense)              (None, 3)                 387       
+=================================================================
+Total params: 1,472,995
+Trainable params: 1,472,099
+Non-trainable params: 896
+_________________________________________________________________
 
 
 
+#### Inception Model
 
 
 
-
-
-
-
+#### ResNet Model
 
