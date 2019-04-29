@@ -115,8 +115,19 @@ _________________________________________________________________
 
 
 ### Inception Model
+Figure 4 shows an example of an Inception model and figure 4.1 provides the summary of the model derived after creating several different models and tuning them. Initially I tried running the model without any dropouts or batch normalizations and added regulizers within each convolution. However, my final model consisted of no regulizers within the convolutions and inserted batch normalizations with dropouts to help with the overfitting problem I was running into.
 
+Figure 4
+![image](https://user-images.githubusercontent.com/43620431/56876379-c7204780-69fb-11e9-8680-9f3f7573c9e4.png)
+
+Figure 4.1
 
 
 ### ResNet Model
 
+
+
+Figure 5
+
+
+Figure 5.1
