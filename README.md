@@ -22,7 +22,7 @@ I started by accessing images from the trainset folder to view 10 random images.
 
 Once I have seen samples of my images, I created bar plots to view the number of images in each folder. Figure 2 provides the total training images by type and figure 2.1 shows the total testing images by type.
 
-Figure 1.
+Figure 1
 ![image](https://user-images.githubusercontent.com/43620431/56870567-4eeb5f00-69c6-11e9-9358-73bfdbd5b0d2.png)
 
 Figure 1.1
@@ -31,7 +31,7 @@ Figure 1.1
 Figure 1.2
 ![image](https://user-images.githubusercontent.com/43620431/56870591-8f4add00-69c6-11e9-864b-0b0c21f090a6.png)
 
-Figure 2.
+Figure 2
 ![image](https://user-images.githubusercontent.com/43620431/56870614-c9b47a00-69c6-11e9-86a1-976a5947f9d4.png)
 
 Figure 2.1
@@ -657,7 +657,8 @@ The model was trained as with a fit_generator as follows:
     * min_lr=.00000000001
 
 Visual of performance:
-![image](https://user-images.githubusercontent.com/43620431/56877464-22a20380-6a03-11e9-8991-b0e0319871ff.png)
+![image](https://user-images.githubusercontent.com/43620431/56877535-a6f48680-6a03-11e9-862d-3ca08281e799.png)
+![image](https://user-images.githubusercontent.com/43620431/56877538-a9ef7700-6a03-11e9-86b9-074ec99d36ad.png)
 
 ### Inception
 The model was trained as with a fit_generator as follows:
@@ -670,7 +671,8 @@ The model was trained as with a fit_generator as follows:
 * verbose = 1
 
 Visual of performance:
-![image](https://user-images.githubusercontent.com/43620431/56877469-26ce2100-6a03-11e9-8cac-2e2a81eb82d8.png)
+![image](https://user-images.githubusercontent.com/43620431/56877541-af4cc180-6a03-11e9-8f58-becc17267cbf.png)
+![image](https://user-images.githubusercontent.com/43620431/56877546-b1af1b80-6a03-11e9-870d-a72f54b00f85.png)
 
 ### ResNet
 The model was trained as with a fit_generator as follows:
@@ -691,7 +693,9 @@ The model was trained as with a fit_generator as follows:
     * min_lr=.0000000000009
     
 Visual of performance:
-![image](https://user-images.githubusercontent.com/43620431/56877471-29c91180-6a03-11e9-8ec3-b3c70081acc0.png)
+![image](https://user-images.githubusercontent.com/43620431/56877550-b4aa0c00-6a03-11e9-9f79-984a9048aa6c.png)
+![image](https://user-images.githubusercontent.com/43620431/56877552-b673cf80-6a03-11e9-8936-d85a4f5fe23d.png)
+
 ## Discussions
 
 ## References
