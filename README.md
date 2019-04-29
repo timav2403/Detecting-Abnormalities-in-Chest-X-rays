@@ -22,19 +22,19 @@ I started by accessing images from the trainset folder to view 10 random images.
 
 Once I have seen samples of my images, I created bar plots to view the number of images in each folder. Figure 2 provides the total training images by type and figure 2.1 shows the total testing images by type.
 
-Figure 1
+#### Figure 1
 ![image](https://user-images.githubusercontent.com/43620431/56870567-4eeb5f00-69c6-11e9-9358-73bfdbd5b0d2.png)
 
-Figure 1.1
+#### Figure 1.1
 ![image](https://user-images.githubusercontent.com/43620431/56870587-865a0b80-69c6-11e9-8d09-8f1c98b4c71d.png)
 
-Figure 1.2
+#### Figure 1.2
 ![image](https://user-images.githubusercontent.com/43620431/56870591-8f4add00-69c6-11e9-864b-0b0c21f090a6.png)
 
-Figure 2
+#### Figure 2
 ![image](https://user-images.githubusercontent.com/43620431/56870614-c9b47a00-69c6-11e9-86a1-976a5947f9d4.png)
 
-Figure 2.1
+#### Figure 2.1
 ![image](https://user-images.githubusercontent.com/43620431/56870616-cde09780-69c6-11e9-8586-d1eb538bfa7d.png)
 
 ## Model and Architecture
@@ -43,10 +43,10 @@ I used three different architectures, AlexNet, Inception, and ResNet, to find an
 ### AlexNet Model
 Figure 3 shows an example of an AlexNet model and figure 3.1 provides the summary of the model derived after creating several different models and tuning them. Initially I tried running the model without any dropouts or batch normalizations and added regulizers within each convolution. However, my final model consisted of no regulizers within the convolutions and inserted batch normalizations with dropouts to help with the overfitting problem I was running into.
 
-Figure 3
+#### Figure 3
 ![image](https://user-images.githubusercontent.com/43620431/56874580-a3570480-69ef-11e9-8207-a5adbc48b679.png)
 
-Figure 3.1
+#### Figure 3.1
 _________________________________________________________________
 Layer (type)                 Output Shape              Param #   
 =================================================================
@@ -117,10 +117,10 @@ _________________________________________________________________
 ### Inception Model
 Figure 4 shows an example of an Inception model and figure 4.1 provides the summary of the model derived after creating several different models and tuning them as well. This model consisted of 5 convolution towers within the Inception model and for this portion I used dropouts, batch normalizations, and regulizers to help with overfitting. 
 
-Figure 4
+#### Figure 4
 ![image](https://user-images.githubusercontent.com/43620431/56876379-c7204780-69fb-11e9-8680-9f3f7573c9e4.png)
 
-Figure 4.1
+#### Figure 4.1
 __________________________________________________________________________________________________
 Layer (type)                    Output Shape         Param #     Connected to                     
 ==================================================================================================
@@ -244,10 +244,11 @@ ________________________________________________________________________________
 ### ResNet Model
 Figure 5 shows an example of an Inception model and figure 5.1 provides the summary of the model derived after creating several different models and tuning them as well. 
 
-Figure 5
+#### Figure 5
 ![image](https://user-images.githubusercontent.com/43620431/56876537-f1263980-69fc-11e9-9114-a2a09f63eee6.png)
 
-Figure 5.1
+#### Figure 5.1
+
 Layer (type)                    Output Shape         Param #     Connected to                     
 ==================================================================================================
 input_1 (InputLayer)            (None, 224, 224, 3)  0                                            
@@ -656,7 +657,8 @@ The model was trained as with a fit_generator as follows:
     * cooldown=1
     * min_lr=.00000000001
 
-Visual of performance:
+#### Visual of performance:
+
 ![image](https://user-images.githubusercontent.com/43620431/56877535-a6f48680-6a03-11e9-862d-3ca08281e799.png)
 ![image](https://user-images.githubusercontent.com/43620431/56877538-a9ef7700-6a03-11e9-86b9-074ec99d36ad.png)
 
@@ -670,7 +672,8 @@ The model was trained as with a fit_generator as follows:
 * validation_steps = 50
 * verbose = 1
 
-Visual of performance:
+#### Visual of performance:
+
 ![image](https://user-images.githubusercontent.com/43620431/56877541-af4cc180-6a03-11e9-8f58-becc17267cbf.png)
 ![image](https://user-images.githubusercontent.com/43620431/56877546-b1af1b80-6a03-11e9-870d-a72f54b00f85.png)
 
@@ -692,7 +695,8 @@ The model was trained as with a fit_generator as follows:
     * cooldown=1
     * min_lr=.0000000000009
     
-Visual of performance:
+#### Visual of performance:
+
 ![image](https://user-images.githubusercontent.com/43620431/56877550-b4aa0c00-6a03-11e9-9f79-984a9048aa6c.png)
 ![image](https://user-images.githubusercontent.com/43620431/56877552-b673cf80-6a03-11e9-8936-d85a4f5fe23d.png)
 
