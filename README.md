@@ -638,6 +638,20 @@ Non-trainable params: 53,120
 __________________________________________________________________________________________________
 
 ## Training and Performance
+### AlexNet
+The model was trained as with a fit_generator as follows:
+loss = categorical
+metrcis = accuracy
+batch size = 32
+epochs = 10
+steps_per_epoch = 25
+validation_steps = 50
+verbose = 1
+optimizer = Adam (learning rate of .0001 and use of ReduceLRonPlateau)
+            ReduceLRonPlateau was trained with (monitor = val_acc, factor=0.1, patience=1, verbose=1,             mode='auto', min_delta=0.01, cooldown=1, min_lr=.00000000001)
+### Inception
+
+### ResNet
 
 ## Discussions
 
