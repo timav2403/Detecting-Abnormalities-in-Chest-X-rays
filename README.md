@@ -40,7 +40,7 @@ Figure 2.1
 ## Model and Architecture
 I used three different architectures, AlexNet, Inception, and ResNet, to find an optimal model.
 
-#### AlexNet Model
+### AlexNet Model
 Figure 3 shows an example of an AlexNet model and figure 3.1 provides the summary of the model derived after creating several different models and tuning them. Initially I tried running the model without any dropouts or batch normalizations and added regulizers within each convolution. However, my final model consisted of no regulizers within the convolutions and inserted batch normalizations with dropouts to help with the overfitting problem I was running into.
 
 Figure 3
@@ -113,9 +113,9 @@ _________________________________________________________________
 
 
 
-#### Inception Model
+### Inception Model
 
 
 
-#### ResNet Model
+### ResNet Model
 
